@@ -1,0 +1,169 @@
+.contact{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.contactTitle {
+    position: relative;
+}
+
+.contactTitle h1{
+    padding: 0px 20px;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.section {
+    display: flex;
+    gap: 100;
+}
+
+.contactLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-right: 20px;
+}
+
+.contactLeft h1{
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contactLeft p {
+    max-width: 550px;
+    color: #D8D8D8;
+    font-size: 20px;
+    line-height: 35px;
+    margin-right: 20px;
+}
+
+.contactDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #D8D8D8;
+    font-size: 22px;
+}
+
+.contactDetail {
+   display: flex;
+   align-items: center;
+   gap: 20px; 
+}
+
+.contactRight {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.contactRlabel {
+    color: #D8D8D8;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.contactRight input{
+    border: none;
+    width: 550px;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-family: Outfit;
+    font-size: 20px;
+
+}
+
+.contactRight textarea {
+    width: 550px;
+    height: 100px;
+    border: none;
+    padding: 25px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-family: Outfit;
+    font-size: 20px;
+}
+
+.contactSubmit {
+    border: none;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 102.28%);
+    font-size:18px;
+    padding: 15px 35px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contactSubmit:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+@media(max-width:830px){
+    .contact{
+        gap: 50px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+    .contactTitle h1{
+        padding: 0;
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .contactTitle img{
+        width: 130px;
+        margin-right: -20px;
+    }
+    .section{
+        flex-direction: column;
+    }
+    .contactLeft h1{
+        font-size: 54px;
+    }
+    .contactLeft p{
+        font-size: 16px;
+    }
+    .contactDetail{
+        gap: 15px;
+    }
+    .contactDetail img{
+        width: 25px;
+    }
+    .contactRight{
+        margin-top: 35px;
+    }
+    .contactRight label{
+        margin-top: 25px;
+        font-size: 20px;
+    }
+    .contactRight input{
+        width: 100%;
+        font-size: 20px;
+    }
+    .contactSubmit {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+    .contactRight textarea {
+        width: 95%;
+        font-size: 20px;
+    }
+}
