@@ -1,18 +1,28 @@
 @import "../../vars.css";
 
 .container {
-  display: flex;
-  flex-direction: column;
+  
   border-radius: 10px;
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
-  max-width: 360px;
+  padding: 18px 22px;
+  max-width: 350px;
+  margin: 0 auto;
 }
 
-.image {
+/* .image {
   margin-bottom: 26px;
+
+} */
+
+.image {
+  width: 300px;          /* Fixed width */
+  height: 200px;         /* Fixed height */
+  margin-bottom: 26px;
+  object-fit: cover;     /* Ensures the image covers the container, cropping if necessary */
+  border-radius: 10px !important;
 }
+
 
 .title {
   font-size: 25px;
@@ -21,12 +31,12 @@
 
 .description {
   margin-top: 6px;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 400;
 }
 
 .skills {
-  width: 100%;
+  width: 90%;
   margin-top: 14px;
   display: flex;
   flex-direction: row;

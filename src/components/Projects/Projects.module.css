@@ -12,6 +12,8 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .projects {
@@ -24,3 +26,22 @@
   gap: 25px;
   width: 100%;
 }
+
+.slider-container {
+  display: flex;
+  justify-content: center; /* Centers the card horizontally */
+  align-items: center; /* Centers the card vertically if necessary */
+  height: 100vh; /* Optional: makes the container fill the viewport */
+}
+
+@media screen and (max-width: 830px) {
+  .title {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  }

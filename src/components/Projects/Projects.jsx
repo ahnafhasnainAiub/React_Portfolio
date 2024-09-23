@@ -9,16 +9,50 @@ import styles from "./Projects.module.css";
 import projects from "../../data/projects.json";
 import { ProjectCard } from "./ProjectCard.jsx";
 
+const responsiveBreakPoints = [
+  {
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 3,
+      slidesToScroll: 1,
+    },
+  },
+  {
+    breakpoint: 600,
+    settings: {
+      slidesToShow: 2,
+      slidesToScroll: 1,
+    },
+  },
+  {
+    breakpoint: 480,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      centerMode: true,
+      centerPadding: "20px",
+    },
+  },
+];
+
 function Projects() {
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
+  var settings = {
+    arrows: false,
+    dots: true,
     slidesToShow: 3,
-    slidesToScroll: 3
-    
+    slidesToScroll: 1,
+    pauseOnHover: true,
+    infinite: true,
+    // cssEase: "linear",
+    autoplay: true,
+    speed: 3000,
+    autoplaySpeed: 3000,
+    centerPadding: "0",
+    responsive: responsiveBreakPoints,
+
   };
+
 
   return (
     <section className={styles.container} id="projects">

@@ -28,14 +28,17 @@ function Experience() {
         {history.map((historyItem, id) => {
           return (
             <li key={id} className={styles.historyItem}>
+              {/* <div className={styles.imgback}>
               <img
                 src={getImageUrl(historyItem.imageSrc)}
                 alt={`${historyItem.organisation} Logo`}
               />
+              </div> */}
               <div className={styles.historyItemDetails}>
-                <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
+                <h2>{`${historyItem.organisation}`}</h2>
+                <h3>{`${historyItem.role}`}</h3>
                 <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-                <ul>
+                <ul  className={styles.details}>
                   {historyItem.experiences.map((experience, id) => {
                     return <li key={id}>{experience}</li>;
                   })}

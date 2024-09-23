@@ -21,6 +21,43 @@
     font-size: 16px;
     margin-bottom: 40px;
   }
+
+
+  #box {
+    height: 100%;
+    width: 100%;
+    background-color: #2f2f2f;
+    padding: 8px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #in {
+    
+    background-color: #111;
+    position: relative;
+    z-index: 99;
+  }
+  
+  #box::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    height: 1200px;
+    width: 200px;
+    background-color: white;
+    animation: move 1.5s  infinite; /* Use linear for smooth rotation */
+  }
+  
+  @keyframes move {
+  
+    100% {
+      transform: translate(-50%, -50%) rotate(225deg); /* End at 225 degrees */
+    }
+  }
+  
   
 
   @media screen and (max-width: 830px) {

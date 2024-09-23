@@ -13,6 +13,7 @@ import { getImageUrl } from "../../utils";
         alt={`Image of ${title}`}
         className={styles.image}
       />
+      <div className={styles.maincode}>
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
       <ul className={styles.skills}>
@@ -32,6 +33,8 @@ import { getImageUrl } from "../../utils";
           Source
         </a>
       </div>
+      </div>
+      
     </div>
   );
 };

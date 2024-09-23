@@ -1,42 +1,43 @@
 [
+
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
+      "title": "Lumen Corporation Ltd.",
+      "imageSrc": "projects/Lumen.PNG",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "demo": "https://lumen-bd.com/",
+      "source": "https://github.com/ahnafhasnainAiub/Lumen_Corporation"
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
+      "title": "Mediusware Ltd.",
+      "imageSrc": "projects/Mediusware.PNG",
       "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
+      "skills": ["Tailwind CSS", "Next", "Django"],
+      "demo": "https://mediusware.com/",
       "source": "https://www.github.com"
     },
     {
-      "title": "Project D",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project E",
-      "imageSrc": "projects/project.png",
+      "title": "Blood Donation",
+      "imageSrc": "projects/Donation.PNG",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "demo": "https://github.com/ahnafhasnainAiub/Blood_Donation",
+      "source": "https://github.com/ahnafhasnainAiub/Blood_Donation"
+    },
+    {
+      "title": "Mediusware Academy",
+      "imageSrc": "projects/Academy.PNG",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["TypeScript","NextJs", "Django" ],
+      "demo": "https://mediusware.com/academy",
+      "source": "https://github.com/ahnafhasnainAiub?tab=repositories"
+    },
+    {
+      "title": "Travel-Hunt",
+      "imageSrc": "projects/Travel.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["EJS","MongoDB", "Express", "Node"],
+      "demo": "travelhunt-complete.onrender.com",
+      "source": "https://github.com/ahnafhasnainAiub/TravelHunt_Complete"
     }
   ]

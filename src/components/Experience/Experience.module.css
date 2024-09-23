@@ -15,6 +15,13 @@
   text-transform: uppercase;
 }
 
+/* .imgback{
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 16px;
+} */
+
 .content {
   display: flex;
   flex-direction: row;
@@ -72,7 +79,7 @@
   background: #19376d;
   background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
   border-radius: 10px;
-  padding: 24px;
+  /* padding: 24px; */
 }
 
 .historyItem img {
@@ -117,5 +124,9 @@
   .history {
     width: 100%;
     gap: 9px;
+  }
+
+  .historyItem{
+    padding: 24px;
   }
 }
