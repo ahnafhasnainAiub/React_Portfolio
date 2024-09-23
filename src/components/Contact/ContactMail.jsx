@@ -97,10 +97,7 @@ const ContactMail = () => {
 
           <div className={styles.socio}>
              <div>
-               <a href="https://github.com/ahnafhasnainAiub"><img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn icon"/></a>
-             </div>
-             <div>
-               <a href="https://github.com/ahnafhasnainAiub"><img src={getImageUrl("contact/githubIcon.png")} alt="Github icon"/></a>
+               <a href="https://www.linkedin.com/in/ahnafhasnainnahiun/"><img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn icon"/></a>
              </div>
              <div>
                <a href="https://github.com/ahnafhasnainAiub"><img src={getImageUrl("contact/githubIcon.png")} alt="Github icon"/></a>

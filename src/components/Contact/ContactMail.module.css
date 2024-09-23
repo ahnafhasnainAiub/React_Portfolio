@@ -13,7 +13,8 @@
 }
 .socio{
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    
 }
 .contactTitle h1{
     padding: 0px 20px;
