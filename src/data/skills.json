@@ -16,8 +16,16 @@
       "imageSrc": "skills/node.png"
     },
     {
-      "title": "GraphQL",
-      "imageSrc": "skills/graphql.png"
+      "title": "Express",
+      "imageSrc": "skills/express.png"
+    },
+    {
+      "title": "NextJS",
+      "imageSrc": "skills/nextjs.png"
+    },
+    {
+      "title": "Djnago",
+      "imageSrc": "skills/django.png"
     },
     {
       "title": "MongoDB",

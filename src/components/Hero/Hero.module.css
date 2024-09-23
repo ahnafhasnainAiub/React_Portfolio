@@ -47,11 +47,13 @@
 
 
 .description {
-  font-size: 30px;
+  font-size: 25px;
+  line-height: 30px;
   font-family: var(--font-roboto);
   margin-bottom: 42px;
-  margin-right: 20px;
+  margin-right: 25px;
   gap: 35px;
+
 }
 
 .btns{
@@ -61,7 +63,7 @@
 .contactBtn {
   width: 130px;
   height: 50px;
-  text-decoration: none;
+  text-decoration: none; 
   /* background-color: var(--color-primary); */
   color: var(--color-text);
   margin-right: 40px;
@@ -71,7 +73,11 @@
   font-weight: 500;
   padding: 10px 25px;
   /* box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25); */
-  background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+  /* background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%); */
+  /* background: linear-gradient(267deg, #00bfae 0.36%, #00d4ff 102.06%); */
+  background: linear-gradient(267deg, #4ea8ff 0.36%, #0051ff 102.06%);
+  /* background: linear-gradient(267deg, #ff6ec7 0.36%, #bf4fcf 102.06%); */
+
 }
 
 
@@ -152,6 +158,7 @@
     font-weight: 400;
   }
   .description {
+    text-align: center;
     display: flex;
     gap:25px;
     font-size: 25px;

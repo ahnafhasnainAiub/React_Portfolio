@@ -19,14 +19,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 14px;
+  margin-top: 15px;
 }
 
 .skills {
   width: 45%;
+  /* height: 35% !important; */
   display: flex;
   flex-wrap: wrap;
-  gap: 37px;
+  gap: 35px;
 }
 
 .skill {
@@ -37,7 +38,7 @@
 }
 
 .skillImageContainer {
-  background-color: var(--color-secondary);
+  background-color: white;
   border-radius: 100%;
   display: flex;
   align-items: center;
