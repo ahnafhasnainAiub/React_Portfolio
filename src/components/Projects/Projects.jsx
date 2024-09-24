@@ -29,8 +29,6 @@ const responsiveBreakPoints = [
     settings: {
       slidesToShow: 1,
       slidesToScroll: 1,
-      centerMode: true,
-      centerPadding: "20px",
     },
   },
 ];
@@ -58,7 +56,7 @@ function Projects() {
     <section className={styles.container} id="projects">
       <h2 className={styles.title}>Projects</h2>
        
-      <div className="slider-container">
+      <div className="slider-container ">
       <Slider {...settings}>
           {projects.map((project, index) => (
             <div key={index} >

@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
+  margin-top: 56px;
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
@@ -10,10 +10,11 @@
 .title {
   font-size: 35px;
   font-weight: 700;
+  color: var(--color-text);
   letter-spacing: 1.75px;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 40px;
+  margin: 50px 0px 20px 0px !important;
 }
 
 .projects {
@@ -34,7 +35,31 @@
   height: 100vh; /* Optional: makes the container fill the viewport */
 }
 
+
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 11px;
+  line-height: 20px;
+  position: absolute;
+  top: 18px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: white !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 @media screen and (max-width: 830px) {
+  
+  .container{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
   .title {
     font-size: 25px;
     font-weight: 600;
@@ -43,5 +68,13 @@
     margin-bottom: 20px;
     text-align: center;
   }
+  
+  .sliderview {
+    display: flex;
+    align-items: center !important;
+    gap: 20px !important;
+    margin: 0px 8px!important;
+  }
+  
   
   }

@@ -33,7 +33,11 @@
   color: var(--color-text);
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 20px;
+}
+
+.devtitle{
+  margin-bottom: 10px;
 }
 
 .aboutItem {
@@ -79,12 +83,21 @@
     flex-direction: column;
   }
 
+  .noimage {
+    display: none;
+  }
+
   .aboutImage {
     display: none;
   }
 
   .aboutItems {
     margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .devtitle{
+    margin-bottom: 10px;
   }
 
   .aboutItem {

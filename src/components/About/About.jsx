@@ -8,12 +8,12 @@ import { getImageUrl } from "../../utils";
     <section className={styles.container} id="about">
     <h2 className={styles.title}>About</h2>
     <div className={styles.content}>
-      <img
-        src={getImageUrl("about/aboutImg.png")}
+      {/* <img
+        src={getImageUrl("about/aboutimage.png")}
         alt="Me sitting with a laptop"
         className={styles.aboutImage}
-      />
-      <ul className={styles.aboutItems}>
+      /> */}
+      {/* <ul className={styles.aboutItems}>
         <li className={styles.aboutItem}>
           <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
           <div className={styles.aboutItemText}>
@@ -44,7 +44,40 @@ import { getImageUrl } from "../../utils";
             </p>
           </div>
         </li>
-      </ul>
+      </ul> */}
+
+<ul className={styles.aboutItems}>
+  <li className={styles.aboutItem}>
+    <img className={styles.noimage} src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+    <div className={styles.aboutItemText}>
+      <h3 className={styles.devtitle}>Frontend Developer</h3>
+      <p>
+        I specialize in creating responsive and highly optimized web applications. My expertise includes Tailwind, Bootstrap, ReactJs, and NextJs.
+      </p>
+    </div>
+  </li>
+  <li className={styles.aboutItem}>
+    <img  className={styles.noimage} src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+    <div className={styles.aboutItemText}>
+      <h3 className={styles.devtitle}>Backend Developer</h3>
+      <p>
+        I have hands-on experience in building efficient and high-performance backend systems and APIs using NodeJs, ExpressJs, and Django.
+      </p>
+    </div>
+  </li>
+  <li className={styles.aboutItem}>
+    <img  className={styles.noimage} src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+    <div className={styles.aboutItemText}>
+      <h3 className={styles.devtitle}>Software Engineer</h3>
+      <p>
+        I possess strong problem-solving abilities with proficiency in C++, Python, and JavaScript.
+      </p>
+    </div>
+  </li>
+</ul>
+
+
+
     </div>
   </section>
   );
