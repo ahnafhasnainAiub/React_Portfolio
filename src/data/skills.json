@@ -8,9 +8,14 @@
       "imageSrc": "skills/css.png"
     },
     {
+      "title": "TypeScript",
+      "imageSrc": "skills/ts.png"
+    },
+    {
       "title": "React",
       "imageSrc": "skills/react.png"
     },
+    
     {
       "title": "Node",
       "imageSrc": "skills/node.png"
@@ -30,9 +35,5 @@
     {
       "title": "MongoDB",
       "imageSrc": "skills/mongodb.png"
-    },
-    {
-      "title": "TypeScript",
-      "imageSrc": "skills/ts.png"
     }
   ]

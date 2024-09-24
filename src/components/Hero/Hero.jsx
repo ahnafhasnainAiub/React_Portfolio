@@ -28,7 +28,7 @@ function Hero() {
       <div className={styles.content}>
          <h2 className={styles.title}>Hello, I am Ahnaf</h2>
          <h3 className={styles.title3}>I'm a <span className={styles.title4} ref={el}></span></h3>
-         <p className={styles.description}>Fullstack developer with hands-on experience in ReactJs, Nodejs, ExpressJs and NextJs. Feel free to reach out if you'd like to learn more!</p>
+         <p className={styles.description}>With hands-on experience in ReactJs, Nodejs, ExpressJs and NextJs. Feel free to reach out if you'd like to learn more!</p>
         <div className={styles.btns}>
           <a  href="#contactMail" className={styles.contactBtn}>Hire Me</a>
           <a href='Resume.pdf' download='Ahnaf Hasnain Resume.pdf' className={styles.contactBtn}>Resume</a>

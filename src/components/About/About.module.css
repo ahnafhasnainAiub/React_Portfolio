@@ -37,8 +37,8 @@
 }
 
 .devtitle{
-  margin-bottom: 10px;
-}
+    margin-bottom: 10px;
+  }
 
 .aboutItem {
   display: flex;
@@ -79,6 +79,10 @@
     padding-right: 0;
   }
 
+  .title{
+    padding-bottom: 0px !important;
+  }
+
   .content {
     flex-direction: column;
   }
@@ -86,7 +90,9 @@
   .noimage {
     display: none;
   }
-
+  .devpgraph{
+     padding-left: 5px !important;
+  }
   .aboutImage {
     display: none;
   }

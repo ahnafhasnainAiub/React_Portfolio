@@ -51,7 +51,7 @@ import { getImageUrl } from "../../utils";
     <img className={styles.noimage} src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
     <div className={styles.aboutItemText}>
       <h3 className={styles.devtitle}>Frontend Developer</h3>
-      <p>
+      <p className={styles.devpgraph}>
         I specialize in creating responsive and highly optimized web applications. My expertise includes Tailwind, Bootstrap, ReactJs, and NextJs.
       </p>
     </div>
@@ -60,7 +60,7 @@ import { getImageUrl } from "../../utils";
     <img  className={styles.noimage} src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
     <div className={styles.aboutItemText}>
       <h3 className={styles.devtitle}>Backend Developer</h3>
-      <p>
+      <p className={styles.devpgraph}>
         I have hands-on experience in building efficient and high-performance backend systems and APIs using NodeJs, ExpressJs, and Django.
       </p>
     </div>
@@ -69,7 +69,7 @@ import { getImageUrl } from "../../utils";
     <img  className={styles.noimage} src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
     <div className={styles.aboutItemText}>
       <h3 className={styles.devtitle}>Software Engineer</h3>
-      <p>
+      <p className={styles.devpgraph}>
         I possess strong problem-solving abilities with proficiency in C++, Python, and JavaScript.
       </p>
     </div>

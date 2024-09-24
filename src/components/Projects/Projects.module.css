@@ -8,13 +8,13 @@
 }
 
 .title {
-  font-size: 35px;
+  font-size: 45px;
   font-weight: 700;
   color: var(--color-text);
   letter-spacing: 1.75px;
   text-transform: uppercase;
   text-align: center;
-  margin: 50px 0px 20px 0px !important;
+  margin: 50px 0px 30px 0px !important;
 }
 
 .projects {
@@ -37,20 +37,11 @@
 
 
 .slick-dots li button:before {
-  font-family: 'slick';
-  font-size: 11px;
-  line-height: 20px;
-  position: absolute;
-  top: 18px;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  content: '•';
-  text-align: center;
-  opacity: .25;
+
+  line-height: 50px;
+  
   color: white !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+;
 }
 
 @media screen and (max-width: 830px) {

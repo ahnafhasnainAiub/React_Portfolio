@@ -8,7 +8,7 @@ import { getImageUrl } from '../../utils';
 function Experience() {
   return (
 <section className={styles.container} id="skills">
-    <h2 className={styles.title}>Experience</h2>
+    <h2 className={styles.title}>Skills & Experience</h2>
      <div className={styles.content}>
       
        <div className={styles.skills}>
